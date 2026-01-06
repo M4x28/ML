@@ -1,0 +1,114 @@
+{
+  "task_id": 2,
+  "run_id": "20260102-173005",
+  "tag": "select_by_acc",
+  "selection_mode": "val_acc",
+  "best_params": {
+    "algorithm": "auto",
+    "leaf_size": 30,
+    "metric": "minkowski",
+    "n_neighbors": 31,
+    "p": 1,
+    "scaler_type": "none",
+    "weights": "uniform"
+  },
+  "best_combo_idx": 65,
+  "selection": {
+    "criterion": "max val_acc_mean, then min val_mse_mean",
+    "metrics": {
+      "train_mse_mean": 0.2152295063013065,
+      "train_mse_std": 0.004764819530360306,
+      "train_acc_mean": 0.6325925925925926,
+      "train_acc_std": 0.01790080884976972,
+      "val_mse_mean": 0.2274101732264186,
+      "val_mse_std": 0.0074389219048733735,
+      "val_acc_mean": 0.6352941176470589,
+      "val_acc_std": 0.03989605872426629
+    },
+    "per_seed": [
+      {
+        "seed": 0,
+        "train_mse": 0.20938836859752571,
+        "train_acc": 0.6296296296296297,
+        "val_mse": 0.22843851380302382,
+        "val_acc": 0.5882352941176471
+      },
+      {
+        "seed": 1,
+        "train_mse": 0.2229390681003584,
+        "train_acc": 0.6148148148148148,
+        "val_mse": 0.22326620554569382,
+        "val_acc": 0.6764705882352942
+      },
+      {
+        "seed": 2,
+        "train_mse": 0.21190118318109993,
+        "train_acc": 0.6666666666666666,
+        "val_mse": 0.21980779824937258,
+        "val_acc": 0.6764705882352942
+      },
+      {
+        "seed": 3,
+        "train_mse": 0.2139823486337534,
+        "train_acc": 0.6296296296296297,
+        "val_mse": 0.2243067882720206,
+        "val_acc": 0.6470588235294118
+      },
+      {
+        "seed": 4,
+        "train_mse": 0.21793656299379505,
+        "train_acc": 0.6222222222222222,
+        "val_mse": 0.24123156026198203,
+        "val_acc": 0.5882352941176471
+      }
+    ]
+  },
+  "final": {
+    "train": {
+      "mse": 0.20650949146906883,
+      "acc": 0.6804733727810651
+    },
+    "test": {
+      "mse": 0.2064400508729333,
+      "acc": 0.6828703703703703
+    }
+  },
+  "param_space": {
+    "n_neighbors": [
+      1,
+      3,
+      5,
+      7,
+      9,
+      11,
+      15,
+      21,
+      31,
+      41,
+      51
+    ],
+    "weights": [
+      "uniform",
+      "distance"
+    ],
+    "p": [
+      1,
+      2
+    ],
+    "metric": [
+      "minkowski"
+    ],
+    "algorithm": [
+      "auto"
+    ],
+    "leaf_size": [
+      30
+    ],
+    "scaler_type": [
+      "none",
+      "standard"
+    ]
+  },
+  "exported_model": "C:\\Users\\leo\\OneDrive - University of Pisa\\Projects\\ML\\KNN_Model_Monk\\exports\\monk2\\knn_monk2_20260102-173005_select_by_acc.joblib",
+  "results_jsonl": "C:\\Users\\leo\\OneDrive - University of Pisa\\Projects\\ML\\KNN_Model_Monk\\results\\monk2\\knn_grid_20260102-173005_select_by_acc.jsonl"
+}

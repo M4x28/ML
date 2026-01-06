@@ -1,0 +1,86 @@
+{
+  "run_id": "ae_nn_20260105-120625",
+  "seed": 0,
+  "device": "cpu",
+  "model_type": "Autoencoder + Regressor (dropout + L2)",
+  "selection_metric": "Validation MEE (eval-mode, dropout OFF)",
+  "best_config": {
+    "latent_dim": 16,
+    "dropout": 0.0,
+    "weight_decay": 0.001,
+    "val_mee": 23.958967208862305,
+    "test_mee": 24.913591384887695
+  },
+  "final_performance": {
+    "train_mee": 22.61857032775879,
+    "val_mee": 24.28792953491211,
+    "test_mee": 25.332189559936523
+  },
+  "data_split": {
+    "train": "60%",
+    "validation": "20%",
+    "test": "20%",
+    "split_seed": 0
+  },
+  "grid_search": {
+    "latent_dims": [
+      4,
+      8,
+      12,
+      16,
+      24,
+      32
+    ],
+    "dropout_rates": [
+      0.0,
+      0.1,
+      0.2,
+      0.3
+    ],
+    "weight_decays": [
+      0.0,
+      1e-05,
+      0.0001,
+      0.001
+    ],
+    "total_configurations": 96
+  },
+  "autoencoder": {
+    "architecture": {
+      "encoder": [
+        12,
+        64,
+        32,
+        16
+      ],
+      "decoder": [
+        16,
+        32,
+        64,
+        12
+      ]
+    },
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "epochs": 300,
+    "patience": 20,
+    "loss": "MSE"
+  },
+  "regressor": {
+    "architecture": [
+      16,
+      64,
+      64,
+      4
+    ],
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "weight_decay": 0.001,
+    "dropout": 0.0,
+    "epochs": 500,
+    "patience": 30,
+    "loss": "MSE (training)",
+    "evaluation_metric": "MEE (eval-mode, dropout OFF)"
+  },
+  "dataset": "C:\\Users\\leobi\\OneDrive - University of Pisa\\Projects\\ML\\data\\ML-CUP25-TR.csv"
+}

@@ -1,0 +1,61 @@
+{
+  "run_id": "20251222-181600",
+  "task_id": 3,
+  "best_overall": {
+    "config": {
+      "batch_size": 32,
+      "epochs": 200,
+      "l2_reg": 0.0001,
+      "lr": 0.01
+    },
+    "val_mse_mean": 0.03846599049866199,
+    "val_mse_std": 0.00731858667381037,
+    "test_mse_mean": 0.050747451931238176,
+    "test_mse_std": 0.0024532370055178132,
+    "best_seed": {
+      "seed": 3,
+      "val_mse": 0.0311219971626997,
+      "test_mse": 0.048866722732782364,
+      "export_path": "C:\\Users\\leo\\OneDrive - University of Pisa\\Projects\\ML\\LinearModel_Monk\\LightningLinearModel\\exported_models\\monk3\\monk3_lr0.01_bs32_ep200_l20.0001_seed3.pt"
+    },
+    "best_model_path": "C:\\Users\\leo\\OneDrive - University of Pisa\\Projects\\ML\\LinearModel_Monk\\LightningLinearModel\\exported_models\\monk3\\best_overall_20251222-181600.pt"
+  },
+  "best_no_reg": {
+    "config": {
+      "batch_size": 16,
+      "epochs": 100,
+      "l2_reg": 0,
+      "lr": 0.001
+    },
+    "val_mse_mean": 0.06299164667725562,
+    "val_mse_std": 0.003403734921174975,
+    "test_mse_mean": 0.060045623779296876,
+    "test_mse_std": 0.003992548230976684,
+    "best_seed": {
+      "seed": 3,
+      "val_mse": 0.05697854980826378,
+      "test_mse": 0.053421542048454285,
+      "export_path": "C:\\Users\\leo\\OneDrive - University of Pisa\\Projects\\ML\\LinearModel_Monk\\LightningLinearModel\\exported_models\\monk3\\monk3_lr0.001_bs16_ep100_l20_seed3.pt"
+    },
+    "best_model_path": "C:\\Users\\leo\\OneDrive - University of Pisa\\Projects\\ML\\LinearModel_Monk\\LightningLinearModel\\exported_models\\monk3\\best_no_reg_20251222-181600.pt"
+  },
+  "best_with_reg": {
+    "config": {
+      "batch_size": 32,
+      "epochs": 200,
+      "l2_reg": 0.0001,
+      "lr": 0.01
+    },
+    "val_mse_mean": 0.03846599049866199,
+    "val_mse_std": 0.00731858667381037,
+    "test_mse_mean": 0.050747451931238176,
+    "test_mse_std": 0.0024532370055178132,
+    "best_seed": {
+      "seed": 3,
+      "val_mse": 0.0311219971626997,
+      "test_mse": 0.048866722732782364,
+      "export_path": "C:\\Users\\leo\\OneDrive - University of Pisa\\Projects\\ML\\LinearModel_Monk\\LightningLinearModel\\exported_models\\monk3\\monk3_lr0.01_bs32_ep200_l20.0001_seed3.pt"
+    },
+    "best_model_path": "C:\\Users\\leo\\OneDrive - University of Pisa\\Projects\\ML\\LinearModel_Monk\\LightningLinearModel\\exported_models\\monk3\\best_with_reg_20251222-181600.pt"
+  }
+}

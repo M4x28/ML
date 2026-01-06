@@ -1,0 +1,3 @@
+input_dim: 170
+l2_reg: 0
+lr: 0.001

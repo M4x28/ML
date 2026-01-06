@@ -1,0 +1,92 @@
+{
+  "task_id": 1,
+  "run_id": "20260102-170455",
+  "best_params": {
+    "algorithm": "auto",
+    "leaf_size": 30,
+    "metric": "minkowski",
+    "n_neighbors": 5,
+    "p": 1,
+    "scaler_type": "standard",
+    "weights": "distance"
+  },
+  "best_combo_idx": 20,
+  "selection": {
+    "criterion": "min val_mse_mean, then max val_acc_mean",
+    "metrics": {
+      "train_mse_mean": 0.0,
+      "train_mse_std": 0.0,
+      "train_acc_mean": 1.0,
+      "train_acc_std": 0.0,
+      "val_mse_mean": 0.10888289987961493,
+      "val_mse_std": 0.018242305141512493,
+      "val_acc_mean": 0.8480000000000001,
+      "val_acc_std": 0.06881860213634099
+    },
+    "per_seed": [
+      {
+        "seed": 0,
+        "train_mse": 0.0,
+        "train_acc": 1.0,
+        "val_mse": 0.08569173426944551,
+        "val_acc": 0.96
+      },
+      {
+        "seed": 1,
+        "train_mse": 0.0,
+        "train_acc": 1.0,
+        "val_mse": 0.1352784190206383,
+        "val_acc": 0.76
+      },
+      {
+        "seed": 2,
+        "train_mse": 0.0,
+        "train_acc": 1.0,
+        "val_mse": 0.09862110170948281,
+        "val_acc": 0.84
+      },
+      {
+        "seed": 3,
+        "train_mse": 0.0,
+        "train_acc": 1.0,
+        "val_mse": 0.10018160529012698,
+        "val_acc": 0.8
+      },
+      {
+        "seed": 4,
+        "train_mse": 0.0,
+        "train_acc": 1.0,
+        "val_mse": 0.124641639108381,
+        "val_acc": 0.88
+      }
+    ]
+  },
+  "final": {
+    "train": {
+      "mse": 0.0,
+      "acc": 1.0
+    },
+    "test": {
+      "mse": 0.09267769051230548,
+      "acc": 0.8680555555555556
+    }
+  },
+  "exported_model": "C:\\Users\\leo\\OneDrive - University of Pisa\\Projects\\ML\\KNN_Model_Monk\\exports\\monk1\\knn_monk1_20260102-170455.joblib",
+  "results_jsonl": "C:\\Users\\leo\\OneDrive - University of Pisa\\Projects\\ML\\KNN_Model_Monk\\results\\monk1\\knn_grid_20260102-170455.jsonl",
+  "summary_json": "C:\\Users\\leo\\OneDrive - University of Pisa\\Projects\\ML\\KNN_Model_Monk\\results\\monk1\\knn_summary_20260102-170455.json",
+  "curve_path": "C:\\Users\\leo\\OneDrive - University of Pisa\\Projects\\ML\\KNN_Model_Monk\\curves\\monk1\\knn_monk1_20260102-170455_mse_curve.png",
+  "curve_json": "C:\\Users\\leo\\OneDrive - University of Pisa\\Projects\\ML\\KNN_Model_Monk\\curves\\monk1\\knn_monk1_20260102-170455_mse_curve.json",
+  "curve_k_values": [
+    1,
+    3,
+    5,
+    7,
+    9,
+    11,
+    15,
+    21,
+    31,
+    41,
+    51
+  ]
+}

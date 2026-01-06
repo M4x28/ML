@@ -1,0 +1,23 @@
+{
+  "run_id": "20251222-181600",
+  "task_id": 2,
+  "best_overall": {
+    "config": {
+      "batch_size": 16,
+      "epochs": 500,
+      "l2_reg": 0,
+      "lr": 0.05
+    },
+    "val_mse_mean": 0.0643166333436966,
+    "val_mse_std": 0.0089503491784777,
+    "test_mse_mean": 0.05983027294278145,
+    "test_mse_std": 0.007011282470395283,
+    "best_seed": {
+      "seed": 4,
+      "val_mse": 0.05007244646549225,
+      "test_mse": 0.0497257225215435,
+      "export_path": "C:\\Users\\leo\\OneDrive - University of Pisa\\Projects\\ML\\LinearModel_Monk\\LightningLinearModel\\exported_models\\monk2\\monk2_lr0.05_bs16_ep500_l20_seed4.pt"
+    },
+    "best_model_path": "C:\\Users\\leo\\OneDrive - University of Pisa\\Projects\\ML\\LinearModel_Monk\\LightningLinearModel\\exported_models\\monk2\\best_overall_20251222-181600.pt"
+  }
+}

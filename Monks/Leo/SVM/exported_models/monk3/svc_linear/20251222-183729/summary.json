@@ -1,0 +1,178 @@
+{
+  "task_id": 3,
+  "model_kind": "svc_linear",
+  "run_name": "20251222-183729",
+  "best_params": {
+    "C": 1000
+  },
+  "best_combo_idx": 2,
+  "selection": {
+    "eval_split": "val",
+    "criterion": {
+      "min_val_mse_mean": 0.11351710713734753,
+      "min_val_mee_mean": 0.29981436919704907,
+      "max_val_acc_mean": 0.944
+    },
+    "metrics": {
+      "train_acc_mean": 0.9257731958762887,
+      "train_acc_std": 0.007714757498502992,
+      "train_mse_mean": 0.10666564146260252,
+      "train_mse_std": 0.008854011222041594,
+      "val_acc_mean": 0.944,
+      "val_acc_std": 0.05425863986500215,
+      "val_mse_mean": 0.11351710713734753,
+      "val_mse_std": 0.014145516050429302,
+      "val_mee_mean": 0.29981436919704907,
+      "val_mee_std": 0.0193398412582386,
+      "test_acc_mean": NaN,
+      "test_acc_std": NaN,
+      "test_mse_mean": NaN,
+      "test_mse_std": NaN,
+      "test_mee_mean": NaN,
+      "test_mee_std": NaN
+    },
+    "per_seed": [
+      {
+        "seed": 0,
+        "train_acc": 0.9381443298969072,
+        "train_mse": 0.09622106338924373,
+        "val_acc": 0.84,
+        "val_mse": 0.13147997005233936,
+        "val_mee": 0.30166273439037694,
+        "test_acc": NaN,
+        "test_mse": NaN,
+        "test_mee": NaN
+      },
+      {
+        "seed": 1,
+        "train_acc": 0.9175257731958762,
+        "train_mse": 0.1068439533518032,
+        "val_acc": 0.96,
+        "val_mse": 0.13004781012109443,
+        "val_mee": 0.3311008342102786,
+        "test_acc": NaN,
+        "test_mse": NaN,
+        "test_mee": NaN
+      },
+      {
+        "seed": 2,
+        "train_acc": 0.9278350515463918,
+        "train_mse": 0.09948824404408207,
+        "val_acc": 0.96,
+        "val_mse": 0.10139799111555878,
+        "val_mee": 0.27433152620257445,
+        "test_acc": NaN,
+        "test_mse": NaN,
+        "test_mee": NaN
+      },
+      {
+        "seed": 3,
+        "train_acc": 0.9278350515463918,
+        "train_mse": 0.10909498434083724,
+        "val_acc": 0.96,
+        "val_mse": 0.10424932998762135,
+        "val_mee": 0.28576007633528056,
+        "test_acc": NaN,
+        "test_mse": NaN,
+        "test_mee": NaN
+      },
+      {
+        "seed": 4,
+        "train_acc": 0.9175257731958762,
+        "train_mse": 0.12167996218704627,
+        "val_acc": 1.0,
+        "val_mse": 0.10041043441012365,
+        "val_mee": 0.3062166748467348,
+        "test_acc": NaN,
+        "test_mse": NaN,
+        "test_mee": NaN
+      }
+    ]
+  },
+  "final": {
+    "eval_split": "test",
+    "metrics": {
+      "train_acc_mean": 0.9344262295081969,
+      "train_acc_std": 1.1102230246251565e-16,
+      "train_mse_mean": 0.1126703770930307,
+      "train_mse_std": 0.0,
+      "val_acc_mean": NaN,
+      "val_acc_std": NaN,
+      "val_mse_mean": NaN,
+      "val_mse_std": NaN,
+      "val_mee_mean": NaN,
+      "val_mee_std": NaN,
+      "test_acc_mean": 0.9722222222222221,
+      "test_acc_std": 1.1102230246251565e-16,
+      "test_mse_mean": 0.0992660131552508,
+      "test_mse_std": 0.0,
+      "test_mee_mean": 0.2999099332831694,
+      "test_mee_std": 0.0
+    },
+    "per_seed": [
+      {
+        "seed": 0,
+        "train_acc": 0.9344262295081968,
+        "train_mse": 0.1126703770930307,
+        "val_acc": NaN,
+        "val_mse": NaN,
+        "val_mee": NaN,
+        "test_acc": 0.9722222222222222,
+        "test_mse": 0.0992660131552508,
+        "test_mee": 0.2999099332831694
+      },
+      {
+        "seed": 1,
+        "train_acc": 0.9344262295081968,
+        "train_mse": 0.1126703770930307,
+        "val_acc": NaN,
+        "val_mse": NaN,
+        "val_mee": NaN,
+        "test_acc": 0.9722222222222222,
+        "test_mse": 0.0992660131552508,
+        "test_mee": 0.2999099332831694
+      },
+      {
+        "seed": 2,
+        "train_acc": 0.9344262295081968,
+        "train_mse": 0.1126703770930307,
+        "val_acc": NaN,
+        "val_mse": NaN,
+        "val_mee": NaN,
+        "test_acc": 0.9722222222222222,
+        "test_mse": 0.0992660131552508,
+        "test_mee": 0.2999099332831694
+      },
+      {
+        "seed": 3,
+        "train_acc": 0.9344262295081968,
+        "train_mse": 0.1126703770930307,
+        "val_acc": NaN,
+        "val_mse": NaN,
+        "val_mee": NaN,
+        "test_acc": 0.9722222222222222,
+        "test_mse": 0.0992660131552508,
+        "test_mee": 0.2999099332831694
+      },
+      {
+        "seed": 4,
+        "train_acc": 0.9344262295081968,
+        "train_mse": 0.1126703770930307,
+        "val_acc": NaN,
+        "val_mse": NaN,
+        "val_mee": NaN,
+        "test_acc": 0.9722222222222222,
+        "test_mse": 0.0992660131552508,
+        "test_mee": 0.2999099332831694
+      }
+    ],
+    "seconds": 0.04930853843688965,
+    "model_paths": {
+      "0": "C:\\Users\\leo\\OneDrive - University of Pisa\\Projects\\ML\\SVM_Monk\\exported_models\\monk3\\svc_linear\\20251222-183729\\models_by_seed\\model_seed_0.joblib",
+      "1": "C:\\Users\\leo\\OneDrive - University of Pisa\\Projects\\ML\\SVM_Monk\\exported_models\\monk3\\svc_linear\\20251222-183729\\models_by_seed\\model_seed_1.joblib",
+      "2": "C:\\Users\\leo\\OneDrive - University of Pisa\\Projects\\ML\\SVM_Monk\\exported_models\\monk3\\svc_linear\\20251222-183729\\models_by_seed\\model_seed_2.joblib",
+      "3": "C:\\Users\\leo\\OneDrive - University of Pisa\\Projects\\ML\\SVM_Monk\\exported_models\\monk3\\svc_linear\\20251222-183729\\models_by_seed\\model_seed_3.joblib",
+      "4": "C:\\Users\\leo\\OneDrive - University of Pisa\\Projects\\ML\\SVM_Monk\\exported_models\\monk3\\svc_linear\\20251222-183729\\models_by_seed\\model_seed_4.joblib"
+    }
+  }
+}

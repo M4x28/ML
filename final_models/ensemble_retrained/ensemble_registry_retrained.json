@@ -1,0 +1,35 @@
+{
+  "created_at": "2026-01-05T20:30:23",
+  "seed": 0,
+  "train_path": "C:\\Users\\leobi\\OneDrive - University of Pisa\\Projects\\ML\\data\\ML-CUP25-TR.csv",
+  "models": [
+    {
+      "id": "svr_t0",
+      "target_idx": 0,
+      "model_type": "svr",
+      "path": "C:\\Users\\leobi\\OneDrive - University of Pisa\\Projects\\ML\\final_models\\ensemble_retrained\\svr_t0.joblib"
+    },
+    {
+      "id": "nn_t1",
+      "target_idx": 1,
+      "model_type": "mlp",
+      "path": "C:\\Users\\leobi\\OneDrive - University of Pisa\\Projects\\ML\\final_models\\ensemble_retrained\\nn_t1.pt"
+    },
+    {
+      "id": "knn_t2",
+      "target_idx": 2,
+      "model_type": "knn",
+      "path": "C:\\Users\\leobi\\OneDrive - University of Pisa\\Projects\\ML\\final_models\\ensemble_retrained\\knn_t2.joblib"
+    },
+    {
+      "id": "knn_t3",
+      "target_idx": 3,
+      "model_type": "knn",
+      "path": "C:\\Users\\leobi\\OneDrive - University of Pisa\\Projects\\ML\\final_models\\ensemble_retrained\\knn_t3.joblib"
+    }
+  ],
+  "artifacts": {
+    "nn_t1_learning_curve_png": "C:\\Users\\leobi\\OneDrive - University of Pisa\\Projects\\ML\\final_models\\ensemble_retrained\\nn_t1_learning_curve_mse.png",
+    "nn_t1_learning_curve_json": "C:\\Users\\leobi\\OneDrive - University of Pisa\\Projects\\ML\\final_models\\ensemble_retrained\\nn_t1_learning_curve_mse.json"
+  }
+}

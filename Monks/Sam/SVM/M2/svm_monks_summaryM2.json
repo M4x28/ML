@@ -1,0 +1,10 @@
+{
+    "best_config": {
+        "kernel": "poly",
+        "C": 10,
+        "degree": 2,
+        "coef0": 1.0,
+        "gamma": "scale"
+    },
+    "final_test_accuracy": 0.9930555555555556
+}

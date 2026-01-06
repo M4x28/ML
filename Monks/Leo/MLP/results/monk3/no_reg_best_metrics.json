@@ -1,0 +1,42 @@
+{
+  "results": {
+    "1": {
+      "params": {
+        "hidden_dim": 3,
+        "lr": 0.001,
+        "weight_decay": 0.0
+      },
+      "train_mse": 0.23687178550227994,
+      "test_mse": 0.2415157289416702,
+      "train_acc": 0.564516129032258,
+      "test_acc": 0.5365740740740741
+    },
+    "2": {
+      "params": {
+        "hidden_dim": 3,
+        "lr": 0.001,
+        "weight_decay": 0.0
+      },
+      "train_mse": 0.24778940240306965,
+      "test_mse": 0.24478937519921198,
+      "train_acc": 0.518343195266272,
+      "test_acc": 0.5347222222222222
+    },
+    "3": {
+      "params": {
+        "hidden_dim": 3,
+        "lr": 0.1,
+        "weight_decay": 0.0
+      },
+      "train_mse": 0.062105272637038945,
+      "test_mse": 0.046502931595400525,
+      "train_acc": 0.9360655737704919,
+      "test_acc": 0.9712962962962962
+    }
+  },
+  "curves": {
+    "1": "mlp_monk_runs\\mse_curves\\monk1\\mlp_monk1_no_reg_mse_curve.png",
+    "2": "mlp_monk_runs\\mse_curves\\monk2\\mlp_monk2_no_reg_mse_curve.png",
+    "3": "mlp_monk_runs\\mse_curves\\monk3\\mlp_monk3_no_reg_mse_curve.png"
+  }
+}

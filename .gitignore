@@ -205,3 +205,27 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Hand in
+Birardi_Bertucci/
+
+# Old data
+Cup/Leo/Ensamble/models/
+Cup/Leo/Ensamble/results/
+Cup/Leo/KNN/curves/
+Cup/Leo/KNN/exports/
+Cup/Leo/KNN/results/
+Cup/Leo/Lightning_Linear/curves/
+Cup/Leo/Lightning_Linear/exports/
+Cup/Leo/Lightning_Linear/results/
+Cup/Leo/MLP/curves/
+Cup/Leo/MLP/exports/
+Cup/Leo/MLP/results/
+Cup/Leo/MLP/plots/
+Cup/Leo/MLP/checkpoints/
+Cup/Leo/SVM/curves/
+Cup/Leo/SVM/exports/
+Cup/Leo/SVM/results/
+Cup/Leo/XGBoost/curves/
+Cup/Leo/XGBoost/exports/
+Cup/Leo/XGBoost/results/
