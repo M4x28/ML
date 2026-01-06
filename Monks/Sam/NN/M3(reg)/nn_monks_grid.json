@@ -1,0 +1,170 @@
+[
+    {
+        "hidden_units": 2,
+        "learning_rate": 0.001,
+        "weight_decay": 1e-05,
+        "mean_val_MSE": 0.13547455966472627,
+        "std_val_MSE": 0.011488068237115989
+    },
+    {
+        "hidden_units": 2,
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "mean_val_MSE": 0.1354751318693161,
+        "std_val_MSE": 0.011481502227199958
+    },
+    {
+        "hidden_units": 2,
+        "learning_rate": 0.001,
+        "weight_decay": 0.001,
+        "mean_val_MSE": 0.13548183292150498,
+        "std_val_MSE": 0.01141626525092502
+    },
+    {
+        "hidden_units": 2,
+        "learning_rate": 0.005,
+        "weight_decay": 1e-05,
+        "mean_val_MSE": 0.08987682610750199,
+        "std_val_MSE": 0.009945748068071981
+    },
+    {
+        "hidden_units": 2,
+        "learning_rate": 0.005,
+        "weight_decay": 0.0001,
+        "mean_val_MSE": 0.08995350301265717,
+        "std_val_MSE": 0.009945949754695595
+    },
+    {
+        "hidden_units": 2,
+        "learning_rate": 0.005,
+        "weight_decay": 0.001,
+        "mean_val_MSE": 0.09072281122207641,
+        "std_val_MSE": 0.009945350574679514
+    },
+    {
+        "hidden_units": 2,
+        "learning_rate": 0.01,
+        "weight_decay": 1e-05,
+        "mean_val_MSE": 0.0799277663230896,
+        "std_val_MSE": 0.011223973528029441
+    },
+    {
+        "hidden_units": 2,
+        "learning_rate": 0.01,
+        "weight_decay": 0.0001,
+        "mean_val_MSE": 0.08003691285848617,
+        "std_val_MSE": 0.01126296367306
+    },
+    {
+        "hidden_units": 2,
+        "learning_rate": 0.01,
+        "weight_decay": 0.001,
+        "mean_val_MSE": 0.08112988024950027,
+        "std_val_MSE": 0.011628349982618682
+    },
+    {
+        "hidden_units": 2,
+        "learning_rate": 0.05,
+        "weight_decay": 1e-05,
+        "mean_val_MSE": 0.07271443977952004,
+        "std_val_MSE": 0.016998725672090393
+    },
+    {
+        "hidden_units": 2,
+        "learning_rate": 0.05,
+        "weight_decay": 0.0001,
+        "mean_val_MSE": 0.07209463566541671,
+        "std_val_MSE": 0.015801520635632522
+    },
+    {
+        "hidden_units": 2,
+        "learning_rate": 0.05,
+        "weight_decay": 0.001,
+        "mean_val_MSE": 0.07296689227223396,
+        "std_val_MSE": 0.01263341186693342
+    },
+    {
+        "hidden_units": 4,
+        "learning_rate": 0.001,
+        "weight_decay": 1e-05,
+        "mean_val_MSE": 0.13311330527067183,
+        "std_val_MSE": 0.005611820196353526
+    },
+    {
+        "hidden_units": 4,
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "mean_val_MSE": 0.13312326967716218,
+        "std_val_MSE": 0.005606012881126144
+    },
+    {
+        "hidden_units": 4,
+        "learning_rate": 0.001,
+        "weight_decay": 0.001,
+        "mean_val_MSE": 0.1332229867577553,
+        "std_val_MSE": 0.005548460848873428
+    },
+    {
+        "hidden_units": 4,
+        "learning_rate": 0.005,
+        "weight_decay": 1e-05,
+        "mean_val_MSE": 0.08907948583364486,
+        "std_val_MSE": 0.0029308908163125954
+    },
+    {
+        "hidden_units": 4,
+        "learning_rate": 0.005,
+        "weight_decay": 0.0001,
+        "mean_val_MSE": 0.08915985375642776,
+        "std_val_MSE": 0.0029390055593928955
+    },
+    {
+        "hidden_units": 4,
+        "learning_rate": 0.005,
+        "weight_decay": 0.001,
+        "mean_val_MSE": 0.08996818959712982,
+        "std_val_MSE": 0.0030223728378035927
+    },
+    {
+        "hidden_units": 4,
+        "learning_rate": 0.01,
+        "weight_decay": 1e-05,
+        "mean_val_MSE": 0.0784065306186676,
+        "std_val_MSE": 0.002775821856252485
+    },
+    {
+        "hidden_units": 4,
+        "learning_rate": 0.01,
+        "weight_decay": 0.0001,
+        "mean_val_MSE": 0.07849439084529877,
+        "std_val_MSE": 0.0027838561687286803
+    },
+    {
+        "hidden_units": 4,
+        "learning_rate": 0.01,
+        "weight_decay": 0.001,
+        "mean_val_MSE": 0.07939545512199402,
+        "std_val_MSE": 0.0028678100809739755
+    },
+    {
+        "hidden_units": 4,
+        "learning_rate": 0.05,
+        "weight_decay": 1e-05,
+        "mean_val_MSE": 0.07145004495978355,
+        "std_val_MSE": 0.018613396439775554
+    },
+    {
+        "hidden_units": 4,
+        "learning_rate": 0.05,
+        "weight_decay": 0.0001,
+        "mean_val_MSE": 0.07171229347586631,
+        "std_val_MSE": 0.018691749926399204
+    },
+    {
+        "hidden_units": 4,
+        "learning_rate": 0.05,
+        "weight_decay": 0.001,
+        "mean_val_MSE": 0.07729867622256278,
+        "std_val_MSE": 0.016236122583856854
+    }
+]

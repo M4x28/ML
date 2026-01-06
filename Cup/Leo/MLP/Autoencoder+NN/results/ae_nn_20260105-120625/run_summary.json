@@ -1,0 +1,17 @@
+{
+  "run_id": "ae_nn_20260105-120625",
+  "output_dir": "C:\\Users\\leobi\\OneDrive - University of Pisa\\Projects\\ML\\Cup\\Leo\\MLP\\Autoencoder+NN\\results\\ae_nn_20260105-120625",
+  "export_path": "C:\\Users\\leobi\\OneDrive - University of Pisa\\Projects\\ML\\Cup\\Leo\\Ensemble\\models\\ae_nn\\ae_nn_best.pt",
+  "metrics": {
+    "train_mee": 22.61857032775879,
+    "val_mee": 24.28792953491211,
+    "test_mee": 25.332189559936523
+  },
+  "best_config": {
+    "latent_dim": 16,
+    "dropout": 0.0,
+    "weight_decay": 0.001,
+    "val_mee": 23.958967208862305,
+    "test_mee": 24.913591384887695
+  }
+}

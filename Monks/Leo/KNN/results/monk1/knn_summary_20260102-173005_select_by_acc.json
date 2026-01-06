@@ -1,0 +1,114 @@
+{
+  "task_id": 1,
+  "run_id": "20260102-173005",
+  "tag": "select_by_acc",
+  "selection_mode": "val_acc",
+  "best_params": {
+    "algorithm": "auto",
+    "leaf_size": 30,
+    "metric": "minkowski",
+    "n_neighbors": 7,
+    "p": 1,
+    "scaler_type": "standard",
+    "weights": "distance"
+  },
+  "best_combo_idx": 28,
+  "selection": {
+    "criterion": "max val_acc_mean, then min val_mse_mean",
+    "metrics": {
+      "train_mse_mean": 0.0,
+      "train_mse_std": 0.0,
+      "train_acc_mean": 1.0,
+      "train_acc_std": 0.0,
+      "val_mse_mean": 0.11587337591249676,
+      "val_mse_std": 0.027181020781498692,
+      "val_acc_mean": 0.8640000000000001,
+      "val_acc_std": 0.07838367176906169
+    },
+    "per_seed": [
+      {
+        "seed": 0,
+        "train_mse": 0.0,
+        "train_acc": 1.0,
+        "val_mse": 0.09073554665696769,
+        "val_acc": 0.96
+      },
+      {
+        "seed": 1,
+        "train_mse": 0.0,
+        "train_acc": 1.0,
+        "val_mse": 0.15995287066874211,
+        "val_acc": 0.72
+      },
+      {
+        "seed": 2,
+        "train_mse": 0.0,
+        "train_acc": 1.0,
+        "val_mse": 0.09857863332153,
+        "val_acc": 0.88
+      },
+      {
+        "seed": 3,
+        "train_mse": 0.0,
+        "train_acc": 1.0,
+        "val_mse": 0.094817973903733,
+        "val_acc": 0.88
+      },
+      {
+        "seed": 4,
+        "train_mse": 0.0,
+        "train_acc": 1.0,
+        "val_mse": 0.13528185501151097,
+        "val_acc": 0.88
+      }
+    ]
+  },
+  "final": {
+    "train": {
+      "mse": 0.0,
+      "acc": 1.0
+    },
+    "test": {
+      "mse": 0.09236526393954982,
+      "acc": 0.8796296296296297
+    }
+  },
+  "param_space": {
+    "n_neighbors": [
+      1,
+      3,
+      5,
+      7,
+      9,
+      11,
+      15,
+      21,
+      31,
+      41,
+      51
+    ],
+    "weights": [
+      "uniform",
+      "distance"
+    ],
+    "p": [
+      1,
+      2
+    ],
+    "metric": [
+      "minkowski"
+    ],
+    "algorithm": [
+      "auto"
+    ],
+    "leaf_size": [
+      30
+    ],
+    "scaler_type": [
+      "none",
+      "standard"
+    ]
+  },
+  "exported_model": "C:\\Users\\leo\\OneDrive - University of Pisa\\Projects\\ML\\KNN_Model_Monk\\exports\\monk1\\knn_monk1_20260102-173005_select_by_acc.joblib",
+  "results_jsonl": "C:\\Users\\leo\\OneDrive - University of Pisa\\Projects\\ML\\KNN_Model_Monk\\results\\monk1\\knn_grid_20260102-173005_select_by_acc.jsonl"
+}

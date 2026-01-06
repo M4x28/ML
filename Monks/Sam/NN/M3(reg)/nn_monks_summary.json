@@ -1,0 +1,11 @@
+{
+    "best_config": {
+        "hidden_units": 4,
+        "learning_rate": 0.05,
+        "weight_decay": 1e-05
+    },
+    "final_train_MSE": 0.021753215197412693,
+    "final_train_accuracy": 0.9836065573770492,
+    "final_test_MSE": 0.04690127105072693,
+    "final_test_accuracy": 0.9476851851851851
+}

@@ -1,0 +1,112 @@
+{
+  "task_id": 2,
+  "run_id": "20260102-173005",
+  "tag": "hamming_brute",
+  "selection_mode": "val_mse",
+  "best_params": {
+    "algorithm": "brute",
+    "leaf_size": 30,
+    "metric": "hamming",
+    "n_neighbors": 21,
+    "p": 1,
+    "scaler_type": "none",
+    "weights": "uniform"
+  },
+  "best_combo_idx": 15,
+  "selection": {
+    "criterion": "min val_mse_mean, then max val_acc_mean",
+    "metrics": {
+      "train_mse_mean": 0.19942890736541527,
+      "train_mse_std": 0.001361559943805994,
+      "train_acc_mean": 0.6992592592592592,
+      "train_acc_std": 0.01965407283173573,
+      "val_mse_mean": 0.22258236627984526,
+      "val_mse_std": 0.008401942667944818,
+      "val_acc_mean": 0.5882352941176471,
+      "val_acc_std": 0.032218973970892135
+    },
+    "per_seed": [
+      {
+        "seed": 0,
+        "train_mse": 0.1996304694717393,
+        "train_acc": 0.6888888888888889,
+        "val_mse": 0.20814992663732157,
+        "val_acc": 0.6176470588235294
+      },
+      {
+        "seed": 1,
+        "train_mse": 0.20178046527252874,
+        "train_acc": 0.6888888888888889,
+        "val_mse": 0.21942110177404295,
+        "val_acc": 0.5882352941176471
+      },
+      {
+        "seed": 2,
+        "train_mse": 0.19954648526077098,
+        "train_acc": 0.7185185185185186,
+        "val_mse": 0.229625183406696,
+        "val_acc": 0.5882352941176471
+      },
+      {
+        "seed": 3,
+        "train_mse": 0.19833711262282686,
+        "train_acc": 0.674074074074074,
+        "val_mse": 0.23169267707082833,
+        "val_acc": 0.6176470588235294
+      },
+      {
+        "seed": 4,
+        "train_mse": 0.19785000419921056,
+        "train_acc": 0.725925925925926,
+        "val_mse": 0.22402294251033744,
+        "val_acc": 0.5294117647058824
+      }
+    ]
+  },
+  "final": {
+    "train": {
+      "mse": 0.19895611104402314,
+      "acc": 0.6568047337278107
+    },
+    "test": {
+      "mse": 0.20605001259763164,
+      "acc": 0.6550925925925926
+    }
+  },
+  "param_space": {
+    "n_neighbors": [
+      1,
+      3,
+      5,
+      7,
+      9,
+      11,
+      15,
+      21,
+      31,
+      41,
+      51
+    ],
+    "weights": [
+      "uniform",
+      "distance"
+    ],
+    "p": [
+      1
+    ],
+    "metric": [
+      "hamming"
+    ],
+    "algorithm": [
+      "brute"
+    ],
+    "leaf_size": [
+      30
+    ],
+    "scaler_type": [
+      "none"
+    ]
+  },
+  "exported_model": "C:\\Users\\leo\\OneDrive - University of Pisa\\Projects\\ML\\KNN_Model_Monk\\exports\\monk2\\knn_monk2_20260102-173005_hamming_brute.joblib",
+  "results_jsonl": "C:\\Users\\leo\\OneDrive - University of Pisa\\Projects\\ML\\KNN_Model_Monk\\results\\monk2\\knn_grid_20260102-173005_hamming_brute.jsonl"
+}

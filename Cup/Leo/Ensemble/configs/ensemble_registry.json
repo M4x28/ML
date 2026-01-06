@@ -1,0 +1,406 @@
+{
+  "train_path": "data/ML-CUP25-TR.csv",
+  "val_ratio": 0.2,
+  "test_ratio": 0.2,
+  "split_seed": 0,
+  "candidates": [
+    {
+      "id": "nn_t0",
+      "name": "NN",
+      "family": "nn",
+      "target_idx": 0,
+      "model_type": "mlp",
+      "path": "Cup/Leo/Ensemble/models/mlp/mlp_target0.pt"
+    },
+    {
+      "id": "linear_t0",
+      "name": "Linear",
+      "family": "linear",
+      "target_idx": 0,
+      "model_type": "linear",
+      "path": "Cup/Leo/Lightning_Linear/exports/linear_cup_linear_cup_per_target_200_t1_best.pt",
+      "meta": {
+        "hyperparams": {
+          "lr": 0.0005,
+          "batch_size": 64,
+          "epochs": 800,
+          "l2": 0.01,
+          "feature_map": "identity"
+        },
+        "source": "Cup/Leo/Lightning_Linear/results/final_summary_linear_cup_per_target_200_per_target.json"
+      }
+    },
+    {
+      "id": "svr_t0",
+      "name": "SVR",
+      "family": "svr",
+      "target_idx": 0,
+      "model_type": "svr",
+      "path": "Cup/Leo/Ensemble/models/seed0/svm_seed0_per_target.joblib"
+    },
+    {
+      "id": "xgb_t0",
+      "name": "XGBoost",
+      "family": "xgboost",
+      "target_idx": 0,
+      "model_type": "xgboost",
+      "path": "Cup/Leo/XGBoost/exports/xgb_cup_seed0_best.joblib",
+      "meta": {
+        "hyperparams": {
+          "n_estimators": 600,
+          "max_depth": 7,
+          "learning_rate": 0.03,
+          "subsample": 0.8,
+          "colsample_bytree": 1.0,
+          "min_child_weight": 1.0,
+          "reg_lambda": 0.5,
+          "reg_alpha": 0.0,
+          "gamma": 0.1,
+          "random_state": 0
+        },
+        "metrics": {
+          "train_mee": 0.354915,
+          "val_mee": 20.803005,
+          "test_mee": 21.068710
+        },
+        "source": "Cup/Leo/XGBoost/results/final_summary_xgb_seed0_20260105.json"
+      }
+    },
+    {
+      "id": "ae_nn_t0",
+      "name": "AE+NN",
+      "family": "ae_nn",
+      "target_idx": 0,
+      "enabled": true,
+      "meta": {},
+      "model_type": "ae_nn",
+      "path": "Cup/Leo/Ensemble/models/ae_nn/ae_nn_best.pt"
+    },
+    {
+      "id": "nn_t1",
+      "name": "NN",
+      "family": "nn",
+      "target_idx": 1,
+      "model_type": "mlp",
+      "path": "Cup/Leo/Ensemble/models/mlp/mlp_target1.pt"
+    },
+    {
+      "id": "linear_t1",
+      "name": "Linear",
+      "family": "linear",
+      "target_idx": 1,
+      "model_type": "linear",
+      "path": "Cup/Leo/Lightning_Linear/exports/linear_cup_linear_cup_per_target_200_t2_best.pt",
+      "meta": {
+        "hyperparams": {
+          "lr": 0.0005,
+          "batch_size": 64,
+          "epochs": 800,
+          "l2": 0.01,
+          "feature_map": "identity"
+        },
+        "source": "Cup/Leo/Lightning_Linear/results/final_summary_linear_cup_per_target_200_per_target.json"
+      }
+    },
+    {
+      "id": "svr_t1",
+      "name": "SVR",
+      "family": "svr",
+      "target_idx": 1,
+      "model_type": "svr",
+      "path": "Cup/Leo/Ensemble/models/seed0/svm_seed0_per_target.joblib"
+    },
+    {
+      "id": "xgb_t1",
+      "name": "XGBoost",
+      "family": "xgboost",
+      "target_idx": 1,
+      "model_type": "xgboost",
+      "path": "Cup/Leo/XGBoost/exports/xgb_cup_seed0_best.joblib",
+      "meta": {
+        "hyperparams": {
+          "n_estimators": 600,
+          "max_depth": 7,
+          "learning_rate": 0.03,
+          "subsample": 0.8,
+          "colsample_bytree": 1.0,
+          "min_child_weight": 1.0,
+          "reg_lambda": 0.5,
+          "reg_alpha": 0.0,
+          "gamma": 0.1,
+          "random_state": 0
+        },
+        "metrics": {
+          "train_mee": 0.354915,
+          "val_mee": 20.803005,
+          "test_mee": 21.068710
+        },
+        "source": "Cup/Leo/XGBoost/results/final_summary_xgb_seed0_20260105.json"
+      }
+    },
+    {
+      "id": "ae_nn_t1",
+      "name": "AE+NN",
+      "family": "ae_nn",
+      "target_idx": 1,
+      "enabled": true,
+      "meta": {},
+      "model_type": "ae_nn",
+      "path": "Cup/Leo/Ensemble/models/ae_nn/ae_nn_best.pt"
+    },
+    {
+      "id": "nn_t2",
+      "name": "NN",
+      "family": "nn",
+      "target_idx": 2,
+      "model_type": "mlp",
+      "path": "Cup/Leo/Ensemble/models/mlp/mlp_target2.pt"
+    },
+    {
+      "id": "linear_t2",
+      "name": "Linear",
+      "family": "linear",
+      "target_idx": 2,
+      "model_type": "linear",
+      "path": "Cup/Leo/Lightning_Linear/exports/linear_cup_linear_cup_per_target_200_t3_best.pt",
+      "meta": {
+        "hyperparams": {
+          "lr": 0.0001,
+          "batch_size": 256,
+          "epochs": 200,
+          "l2": 0.01,
+          "feature_map": "identity"
+        },
+        "source": "Cup/Leo/Lightning_Linear/results/final_summary_linear_cup_per_target_200_per_target.json"
+      }
+    },
+    {
+      "id": "svr_t2",
+      "name": "SVR",
+      "family": "svr",
+      "target_idx": 2,
+      "model_type": "svr",
+      "path": "Cup/Leo/Ensemble/models/seed0/svm_seed0_per_target.joblib"
+    },
+    {
+      "id": "xgb_t2",
+      "name": "XGBoost",
+      "family": "xgboost",
+      "target_idx": 2,
+      "model_type": "xgboost",
+      "path": "Cup/Leo/XGBoost/exports/xgb_cup_seed0_best.joblib",
+      "meta": {
+        "hyperparams": {
+          "n_estimators": 600,
+          "max_depth": 7,
+          "learning_rate": 0.03,
+          "subsample": 0.8,
+          "colsample_bytree": 1.0,
+          "min_child_weight": 1.0,
+          "reg_lambda": 0.5,
+          "reg_alpha": 0.0,
+          "gamma": 0.1,
+          "random_state": 0
+        },
+        "metrics": {
+          "train_mee": 0.354915,
+          "val_mee": 20.803005,
+          "test_mee": 21.068710
+        },
+        "source": "Cup/Leo/XGBoost/results/final_summary_xgb_seed0_20260105.json"
+      }
+    },
+    {
+      "id": "ae_nn_t2",
+      "name": "AE+NN",
+      "family": "ae_nn",
+      "target_idx": 2,
+      "enabled": true,
+      "meta": {},
+      "model_type": "ae_nn",
+      "path": "Cup/Leo/Ensemble/models/ae_nn/ae_nn_best.pt"
+    },
+    {
+      "id": "nn_t3",
+      "name": "NN",
+      "family": "nn",
+      "target_idx": 3,
+      "model_type": "mlp",
+      "path": "Cup/Leo/Ensemble/models/mlp/mlp_target3.pt"
+    },
+    {
+      "id": "linear_t3",
+      "name": "Linear",
+      "family": "linear",
+      "target_idx": 3,
+      "model_type": "linear",
+      "path": "Cup/Leo/Lightning_Linear/exports/linear_cup_linear_cup_per_target_200_t4_best.pt",
+      "meta": {
+        "hyperparams": {
+          "lr": 0.0001,
+          "batch_size": 256,
+          "epochs": 200,
+          "l2": 0.01,
+          "feature_map": "identity"
+        },
+        "source": "Cup/Leo/Lightning_Linear/results/final_summary_linear_cup_per_target_200_per_target.json"
+      }
+    },
+    {
+      "id": "svr_t3",
+      "name": "SVR",
+      "family": "svr",
+      "target_idx": 3,
+      "model_type": "svr",
+      "path": "Cup/Leo/Ensemble/models/seed0/svm_seed0_per_target.joblib"
+    },
+    {
+      "id": "xgb_t3",
+      "name": "XGBoost",
+      "family": "xgboost",
+      "target_idx": 3,
+      "model_type": "xgboost",
+      "path": "Cup/Leo/XGBoost/exports/xgb_cup_seed0_best.joblib",
+      "meta": {
+        "hyperparams": {
+          "n_estimators": 600,
+          "max_depth": 7,
+          "learning_rate": 0.03,
+          "subsample": 0.8,
+          "colsample_bytree": 1.0,
+          "min_child_weight": 1.0,
+          "reg_lambda": 0.5,
+          "reg_alpha": 0.0,
+          "gamma": 0.1,
+          "random_state": 0
+        },
+        "metrics": {
+          "train_mee": 0.354915,
+          "val_mee": 20.803005,
+          "test_mee": 21.068710
+        },
+        "source": "Cup/Leo/XGBoost/results/final_summary_xgb_seed0_20260105.json"
+      }
+    },
+    {
+      "id": "ae_nn_t3",
+      "name": "AE+NN",
+      "family": "ae_nn",
+      "target_idx": 3,
+      "enabled": true,
+      "meta": {},
+      "model_type": "ae_nn",
+      "path": "Cup/Leo/Ensemble/models/ae_nn/ae_nn_best.pt"
+    },
+    {
+      "id": "knn_t0",
+      "name": "KNN",
+      "family": "knn",
+      "target_idx": 0,
+      "model_type": "knn",
+      "path": "Cup/Leo/KNN/exports/knn_cup_knn_fullgrid_per_target_seed0_20260105_1404_best.joblib",
+      "meta": {
+        "hyperparams": {
+          "n_neighbors": 3,
+          "weights": "distance",
+          "p": 1,
+          "metric": "minkowski",
+          "algorithm": "auto",
+          "leaf_size": 30,
+          "feature_map": "poly2",
+          "pca_components": 0.95,
+          "scaler_type": "standard"
+        },
+        "metrics": {
+          "train_mee": 0.00004315979409864816,
+          "val_mee": 7.319340741758467,
+          "test_mee": 7.021958886137452
+        },
+        "source": "Cup/Leo/KNN/results/final_summary_knn_fullgrid_per_target_seed0_20260105_1404.json"
+      }
+    },
+    {
+      "id": "knn_t1",
+      "name": "KNN",
+      "family": "knn",
+      "target_idx": 1,
+      "model_type": "knn",
+      "path": "Cup/Leo/KNN/exports/knn_cup_knn_fullgrid_per_target_seed0_20260105_1404_best.joblib",
+      "enabled": false,
+      "meta": {
+        "note": "Disabled: per-target KNN for target 1 shows train_mee == 0 (overfitting); ignored as requested",
+        "hyperparams": {
+          "n_neighbors": 1,
+          "weights": "uniform",
+          "p": 2,
+          "metric": "minkowski",
+          "algorithm": "auto",
+          "leaf_size": 30,
+          "feature_map": "poly2",
+          "pca_components": 0.95,
+          "scaler_type": "power"
+        },
+        "metrics": {
+          "train_mee": 0.0,
+          "val_mee": 6.368817329406738,
+          "test_mee": 6.624353122711182
+        },
+        "source": "Cup/Leo/KNN/results/final_summary_knn_fullgrid_per_target_seed0_20260105_1404.json"
+      }
+    },
+    {
+      "id": "knn_t2",
+      "name": "KNN",
+      "family": "knn",
+      "target_idx": 2,
+      "model_type": "knn",
+      "path": "Cup/Leo/KNN/exports/knn_cup_knn_fullgrid_per_target_seed0_20260105_1404_best.joblib",
+      "meta": {
+        "hyperparams": {
+          "n_neighbors": 3,
+          "weights": "distance",
+          "p": 2,
+          "metric": "minkowski",
+          "algorithm": "auto",
+          "leaf_size": 30,
+          "feature_map": "poly2",
+          "pca_components": 0.95,
+          "scaler_type": "power"
+        },
+        "metrics": {
+          "train_mee": 0.000043402870405578114,
+          "val_mee": 7.2355227510248055,
+          "test_mee": 6.400468802989465
+        },
+        "source": "Cup/Leo/KNN/results/final_summary_knn_fullgrid_per_target_seed0_20260105_1404.json"
+      }
+    },
+    {
+      "id": "knn_t3",
+      "name": "KNN",
+      "family": "knn",
+      "target_idx": 3,
+      "model_type": "knn",
+      "path": "Cup/Leo/KNN/exports/knn_cup_knn_fullgrid_per_target_seed0_20260105_1404_best.joblib",
+      "meta": {
+        "hyperparams": {
+          "n_neighbors": 3,
+          "weights": "distance",
+          "p": 2,
+          "metric": "minkowski",
+          "algorithm": "auto",
+          "leaf_size": 30,
+          "feature_map": "poly2",
+          "pca_components": 0.95,
+          "scaler_type": "power"
+        },
+        "metrics": {
+          "train_mee": 0.00004406134790673186,
+          "val_mee": 7.152477463072191,
+          "test_mee": 6.4880185040180525
+        },
+        "source": "Cup/Leo/KNN/results/final_summary_knn_fullgrid_per_target_seed0_20260105_1404.json"
+      }
+    }
+  ]
+}

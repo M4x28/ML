@@ -1,0 +1,7 @@
+{
+    "best_config": {
+        "kernel": "linear",
+        "C": 0.1
+    },
+    "final_test_accuracy": 0.9722222222222222
+}

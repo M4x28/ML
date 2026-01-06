@@ -1,0 +1,58 @@
+[
+    {
+        "hidden_units": 2,
+        "learning_rate": 0.001,
+        "weight_decay": 0.0,
+        "mean_val_MSE": 0.3057019650936127,
+        "std_val_MSE": 0.00832000440190167
+    },
+    {
+        "hidden_units": 2,
+        "learning_rate": 0.005,
+        "weight_decay": 0.0,
+        "mean_val_MSE": 0.2922024607658386,
+        "std_val_MSE": 0.005261966574343946
+    },
+    {
+        "hidden_units": 2,
+        "learning_rate": 0.01,
+        "weight_decay": 0.0,
+        "mean_val_MSE": 0.2872347354888916,
+        "std_val_MSE": 0.005184642592188823
+    },
+    {
+        "hidden_units": 2,
+        "learning_rate": 0.05,
+        "weight_decay": 0.0,
+        "mean_val_MSE": 0.2241535782814026,
+        "std_val_MSE": 0.07070515357120803
+    },
+    {
+        "hidden_units": 4,
+        "learning_rate": 0.001,
+        "weight_decay": 0.0,
+        "mean_val_MSE": 0.2964127421379089,
+        "std_val_MSE": 0.007321467162553073
+    },
+    {
+        "hidden_units": 4,
+        "learning_rate": 0.005,
+        "weight_decay": 0.0,
+        "mean_val_MSE": 0.29094150066375735,
+        "std_val_MSE": 0.005560539310220436
+    },
+    {
+        "hidden_units": 4,
+        "learning_rate": 0.01,
+        "weight_decay": 0.0,
+        "mean_val_MSE": 0.2879054069519043,
+        "std_val_MSE": 0.0035464437319752897
+    },
+    {
+        "hidden_units": 4,
+        "learning_rate": 0.05,
+        "weight_decay": 0.0,
+        "mean_val_MSE": 0.12294758707284928,
+        "std_val_MSE": 0.030707721420553974
+    }
+]

@@ -1,0 +1,22 @@
+{
+  "task_id": 2,
+  "tag": "no_reg",
+  "seed": 3,
+  "epochs": 200,
+  "batch_size": 64,
+  "params": {
+    "hidden_dim": 1,
+    "lr": 0.1,
+    "weight_decay": 0.0
+  },
+  "summary_path": "C:\\Users\\leo\\OneDrive - University of Pisa\\Projects\\ML\\MLP_Model_Monk\\exported_models\\monk2\\mlp\\20251223-173405\\summary.json",
+  "train": {
+    "acc": 0.7869822485207101,
+    "mse": 0.1747990162414912
+  },
+  "test": {
+    "acc": 0.7731481481481481,
+    "mse": 0.1925722735899466
+  },
+  "smooth_window": 11
+}

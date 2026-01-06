@@ -1,0 +1,11 @@
+{
+    "best_config": {
+        "basis_degree": 2,
+        "learning_rate": 0.05,
+        "weight_decay": 0.0
+    },
+    "final_train_MSE": 0.02156281413270101,
+    "final_train_accuracy": 1.0,
+    "final_test_MSE": 0.07419530710688343,
+    "final_test_accuracy": 0.9722222222222223
+}
